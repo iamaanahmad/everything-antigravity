@@ -14,7 +14,7 @@ Quick guide to install and configure Everything Antigravity in your project.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/everything-antigravity.git
+git clone https://github.com/iamaanahmad/everything-antigravity.git
 
 # Navigate to the directory
 cd everything-antigravity

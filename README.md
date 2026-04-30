@@ -50,7 +50,7 @@ everything-antigravity/
 Clone this repository into your project or integrate specific components into your Antigravity configuration.
 
 ```bash
-git clone https://github.com/yourusername/everything-antigravity.git
+git clone https://github.com/iamaanahmad/everything-antigravity.git
 cd everything-antigravity
 ```
 
