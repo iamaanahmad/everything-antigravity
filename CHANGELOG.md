@@ -1,5 +1,46 @@
 # Changelog - Everything Antigravity
 
+## [2026-05-01] Update - Full Feature Parity with everything-claude-code
+
+### Added
+
+#### Commands (11 new, 14 total)
+- ✅ **build-fix.md** - Incremental build/TypeScript error fixing (NEW)
+- ✅ **checkpoint.md** - Workflow checkpoint creation and verification (NEW)
+- ✅ **e2e.md** - Playwright E2E test generation and execution (NEW)
+- ✅ **eval.md** - Eval-driven development workflow (NEW)
+- ✅ **learn.md** - Extract reusable patterns as skills (NEW)
+- ✅ **orchestrate.md** - Sequential multi-agent workflow (NEW)
+- ✅ **refactor-clean.md** - Safe dead code removal with test verification (NEW)
+- ✅ **test-coverage.md** - Coverage analysis and test generation (NEW)
+- ✅ **update-codemaps.md** - Architecture documentation generation (NEW)
+- ✅ **update-docs.md** - Documentation sync from source-of-truth (NEW)
+- ✅ **verify.md** - Comprehensive codebase verification (NEW)
+
+#### Skills (5 new, 6 total)
+- ✅ **backend-patterns/** - Backend architecture, API design, database patterns (NEW)
+- ✅ **frontend-patterns/** - React, Next.js, state management, performance patterns (NEW)
+- ✅ **tdd-workflow/** - Full TDD workflow with unit, integration, and E2E patterns (NEW)
+- ✅ **security-review/** - Comprehensive security checklist and patterns (NEW)
+- ✅ **verification-loop/** - Verification system for quality gates (NEW)
+
+#### Rules (1 new, 7 total)
+- ✅ **agents.md** - Agent orchestration guidelines and model selection (NEW)
+
+### Summary
+
+**Before this update:**
+- 3 commands
+- 1 skill
+- 6 rules
+
+**After this update:**
+- 14 commands (full parity with everything-claude-code)
+- 6 skills
+- 7 rules
+
+---
+
 ## [2026-04-30] Major Update - Complete Feature Set
 
 ### Added

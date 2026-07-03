@@ -69,6 +69,10 @@ cp rules/git-workflow.md ~/.antigravity/rules/
 - `security.md` - Security guidelines
 - `coding-style.md` - Coding conventions
 - `git-workflow.md` - Git workflow
+- `testing.md` - Testing requirements
+- `patterns.md` - Common patterns
+- `performance.md` - Performance guidelines
+- `agents.md` - Agent orchestration
 
 ### 3. Install Commands
 
@@ -88,6 +92,17 @@ cp commands/code-review.md ~/.antigravity/commands/
 - `/tdd` - Test-driven development
 - `/plan` - Implementation planning
 - `/code-review` - Code review
+- `/build-fix` - Incremental build error fixing
+- `/checkpoint` - Workflow checkpoints
+- `/e2e` - E2E test generation and execution
+- `/eval` - Eval-driven development
+- `/learn` - Extract reusable patterns
+- `/orchestrate` - Multi-agent workflow
+- `/refactor-clean` - Safe dead code removal
+- `/test-coverage` - Coverage analysis
+- `/update-codemaps` - Architecture docs
+- `/update-docs` - Documentation sync
+- `/verify` - Comprehensive verification
 
 ### 4. Install Skills
 
@@ -99,7 +114,12 @@ cp -r skills/* ~/.antigravity/skills/
 ```
 
 **Available Skills:**
-- `coding-standards/` - Language best practices
+- `coding-standards.md` - Language best practices
+- `backend-patterns/` - Backend architecture patterns
+- `frontend-patterns/` - React/Next.js patterns
+- `tdd-workflow/` - TDD workflow patterns
+- `security-review/` - Security checklist and patterns
+- `verification-loop/` - Verification system
 
 ### 5. Install Contexts
 

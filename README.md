@@ -27,18 +27,42 @@ everything-antigravity/
 │   └── coding-standards/    # Language best practices
 │
 ├── commands/         # Slash commands for quick execution
-│   └── tdd.md               # Test-driven development workflow
+│   ├── tdd.md               # Test-driven development workflow
+│   ├── plan.md              # Implementation planning
+│   ├── code-review.md       # Code review
+│   ├── build-fix.md         # Incremental build error fixing
+│   ├── checkpoint.md        # Workflow checkpoints
+│   ├── e2e.md               # E2E test generation and execution
+│   ├── eval.md              # Eval-driven development
+│   ├── learn.md             # Extract reusable patterns
+│   ├── orchestrate.md       # Multi-agent workflow orchestration
+│   ├── refactor-clean.md    # Safe dead code removal
+│   ├── test-coverage.md     # Coverage analysis and test generation
+│   ├── update-codemaps.md   # Architecture documentation
+│   ├── update-docs.md       # Documentation sync
+│   └── verify.md            # Comprehensive verification
 │
 ├── rules/            # Always-follow guidelines
-│   └── security.md          # Mandatory security checks
+│   ├── security.md          # Mandatory security checks
+│   ├── coding-style.md      # Code style and conventions
+│   ├── git-workflow.md      # Git workflow guidelines
+│   ├── testing.md           # Testing requirements
+│   ├── patterns.md          # Common patterns
+│   ├── performance.md       # Performance guidelines
+│   └── agents.md            # Agent orchestration guidelines
 │
 ├── contexts/         # Contexts for specific modes
 │   ├── dev.md               # Development mode
 │   ├── research.md          # Research mode
 │   └── review.md            # Code review mode
 │
-└── mcp-configs/      # MCP server configurations
-    └── mcp-servers.json     # GitHub, Supabase, Vercel, etc.
+└── skills/           # Workflow definitions and domain knowledge
+    ├── coding-standards.md  # Language best practices
+    ├── backend-patterns/    # Backend architecture patterns
+    ├── frontend-patterns/   # React/Next.js patterns
+    ├── tdd-workflow/        # TDD workflow patterns
+    ├── security-review/     # Security checklist and patterns
+    └── verification-loop/   # Verification system
 ```
 
 ---
@@ -120,13 +144,31 @@ Define reusable workflows and domain knowledge. The `coding-standards` skill pro
 
 **Available Skills:**
 - **coding-standards** - Naming conventions, code structure, documentation standards
+- **backend-patterns** - Backend architecture, API design, database patterns
+- **frontend-patterns** - React/Next.js, state management, performance patterns
+- **tdd-workflow** - Full TDD workflow with unit, integration, and E2E patterns
+- **security-review** - Comprehensive security checklist and patterns
+- **verification-loop** - Verification system for quality gates
 
 ### Commands
 
 Execute complex tasks with simple slash commands like `/tdd` or `/plan`.
 
 **Available Commands:**
-- `/tdd` - Enforce test-driven development workflow
+- `/tdd` - Test-driven development
+- `/plan` - Implementation planning
+- `/code-review` - Code review
+- `/build-fix` - Incremental build error fixing
+- `/checkpoint` - Workflow checkpoints
+- `/e2e` - E2E test generation and execution
+- `/eval` - Eval-driven development
+- `/learn` - Extract reusable patterns as skills
+- `/orchestrate` - Multi-agent workflow orchestration
+- `/refactor-clean` - Safe dead code removal
+- `/test-coverage` - Coverage analysis and test generation
+- `/update-codemaps` - Architecture documentation
+- `/update-docs` - Documentation sync
+- `/verify` - Comprehensive codebase verification
 
 ### Rules
 
@@ -134,6 +176,12 @@ Always-follow guidelines that apply to all code. Rules are automatically enforce
 
 **Available Rules:**
 - **security.md** - Mandatory security checks (secrets, input validation, auth)
+- **coding-style.md** - Code style and naming conventions
+- **git-workflow.md** - Git workflow and commit guidelines
+- **testing.md** - Testing requirements and TDD workflow
+- **patterns.md** - Common reusable patterns
+- **performance.md** - Performance optimization guidelines
+- **agents.md** - Agent orchestration and model selection
 
 ### Contexts
 
