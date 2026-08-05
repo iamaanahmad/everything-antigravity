@@ -1,8 +1,8 @@
 # Everything Antigravity
 
-**The definitive collection of configurations for Google's Antigravity IDE.**
+**The definitive collection of configurations for Google's Antigravity 2.0 (Standalone Desktop Application).**
 
-Unlock the full potential of your Antigravity assistant with production-ready agents, skills, hooks, commands, rules, and MCP configurations. Battle-tested patterns evolved from real-world development.
+Unlock the full potential of your Antigravity assistant with production-ready agents, skills, hooks, commands, rules, and MCP configurations. Fully optimized for Antigravity 2.0's Dynamic Subagents, Asynchronous Automation, and Enterprise Integrations. Battle-tested patterns evolved from real-world development.
 
 ---
 
@@ -80,23 +80,23 @@ cd everything-antigravity
 
 ### 2. Configure Agents
 
-Copy desired agents from `agents/` to your `.antigravity/agents/` directory (or equivalent configuration location).
+Copy desired agents from `agents/` to your `.agents/agents/` directory (for project scope) or `~/.gemini/config/agents/` (for global scope).
 
 ```bash
 # Copy all agents
-cp agents/*.md ~/.antigravity/agents/
+cp agents/*.md .agents/agents/
 
 # Or copy specific agents
-cp agents/planner.md ~/.antigravity/agents/
-cp agents/code-reviewer.md ~/.antigravity/agents/
+cp agents/planner.md .agents/agents/
+cp agents/code-reviewer.md .agents/agents/
 ```
 
 ### 3. Set Up Rules
 
-Establish project-wide rules by placing files from `rules/` into `.antigravity/rules/`.
+Establish project-wide rules by copying `AGENTS.md` into your `.agents/` customization root.
 
 ```bash
-cp rules/*.md ~/.antigravity/rules/
+cp AGENTS.md .agents/AGENTS.md
 ```
 
 ### 4. Add Skills
@@ -104,7 +104,7 @@ cp rules/*.md ~/.antigravity/rules/
 Copy skills to enhance Antigravity's domain knowledge:
 
 ```bash
-cp -r skills/* ~/.antigravity/skills/
+cp -r skills/* .agents/skills/
 ```
 
 ### 5. Configure MCP Servers
@@ -112,7 +112,7 @@ cp -r skills/* ~/.antigravity/skills/
 Copy MCP server configurations and replace placeholders with your actual API keys:
 
 ```bash
-cp mcp-configs/mcp-servers.json ~/.antigravity/mcp-servers.json
+cp mcp-configs/mcp-servers.json .agents/mcp-servers.json
 # Edit the file and replace YOUR_*_HERE with actual values
 ```
 
@@ -122,7 +122,7 @@ cp mcp-configs/mcp-servers.json ~/.antigravity/mcp-servers.json
 
 ### Agents
 
-Delegate specific tasks to specialized subagents. For example, the `code-reviewer` agent focuses solely on code quality and security.
+Delegate specific tasks to specialized subagents. Take advantage of Antigravity 2.0's **Dynamic Subagents** capability, allowing these specialized agents to be spawned for parallel task execution without cluttering your main context. For example, the `code-reviewer` agent focuses solely on code quality and security.
 
 **Available Agents:**
 
@@ -152,9 +152,16 @@ Define reusable workflows and domain knowledge. The `coding-standards` skill pro
 
 ### Commands
 
-Execute complex tasks with simple slash commands like `/tdd` or `/plan`.
+Execute complex tasks with simple slash commands.
 
-**Available Commands:**
+**Native Antigravity 2.0 Commands (Built-in):**
+- `/goal` - Run a long-running task autonomously without stopping until the goal is achieved.
+- `/schedule` - Set recurring crons or one-time timers for asynchronous automation.
+- `/grill-me` - Align on a plan through an interactive interview.
+- `/browser` - Launch a browser subagent to interact with web pages.
+- `/learn` - Automatically extract patterns and persist behaviors.
+
+**Custom Workflow Commands (Included in this repo):**
 - `/tdd` - Test-driven development
 - `/plan` - Implementation planning
 - `/code-review` - Code review
@@ -389,13 +396,13 @@ agents/
 
 ### For Your Team
 
-Create team-specific rules:
-```
-rules/
-├── team-coding-style.md
-├── team-git-workflow.md
-├── team-review-process.md
-└── team-deployment.md
+Add team-specific rules to your `AGENTS.md` file:
+```markdown
+# AGENTS.md
+- Team Coding Style
+- Team Git Workflow
+- Team Review Process
+- Team Deployment
 ```
 
 ---

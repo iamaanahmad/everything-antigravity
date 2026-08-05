@@ -32,12 +32,12 @@ Copy agents to your Antigravity agents directory:
 
 ```bash
 # Copy all agents
-cp agents/*.md ~/.antigravity/agents/
+cp agents/*.md .agents/agents/
 
 # Or copy specific agents
-cp agents/planner.md ~/.antigravity/agents/
-cp agents/code-reviewer.md ~/.antigravity/agents/
-cp agents/tdd-guide.md ~/.antigravity/agents/
+cp agents/planner.md .agents/agents/
+cp agents/code-reviewer.md .agents/agents/
+cp agents/tdd-guide.md .agents/agents/
 ```
 
 **Available Agents:**
@@ -53,16 +53,11 @@ cp agents/tdd-guide.md ~/.antigravity/agents/
 
 ### 2. Install Rules
 
-Copy rules to your Antigravity rules directory:
+Rules are no longer separate files in Antigravity 2.0. You must copy the consolidated `AGENTS.md` file:
 
 ```bash
-# Copy all rules
-cp rules/*.md ~/.antigravity/rules/
-
-# Or copy specific rules
-cp rules/security.md ~/.antigravity/rules/
-cp rules/coding-style.md ~/.antigravity/rules/
-cp rules/git-workflow.md ~/.antigravity/rules/
+# Copy the rules file
+cp AGENTS.md .agents/AGENTS.md
 ```
 
 **Available Rules:**
@@ -80,12 +75,12 @@ Copy commands to your Antigravity commands directory:
 
 ```bash
 # Copy all commands
-cp commands/*.md ~/.antigravity/commands/
+cp commands/*.md .agents/commands/
 
 # Or copy specific commands
-cp commands/tdd.md ~/.antigravity/commands/
-cp commands/plan.md ~/.antigravity/commands/
-cp commands/code-review.md ~/.antigravity/commands/
+cp commands/tdd.md .agents/commands/
+cp commands/plan.md .agents/commands/
+cp commands/code-review.md .agents/commands/
 ```
 
 **Available Commands:**
@@ -110,7 +105,7 @@ Copy skills to your Antigravity skills directory:
 
 ```bash
 # Copy all skills
-cp -r skills/* ~/.antigravity/skills/
+cp -r skills/* .agents/skills/
 ```
 
 **Available Skills:**
@@ -127,12 +122,12 @@ Copy contexts to your Antigravity contexts directory:
 
 ```bash
 # Copy all contexts
-cp contexts/*.md ~/.antigravity/contexts/
+cp contexts/*.md .agents/contexts/
 
 # Or copy specific contexts
-cp contexts/dev.md ~/.antigravity/contexts/
-cp contexts/research.md ~/.antigravity/contexts/
-cp contexts/review.md ~/.antigravity/contexts/
+cp contexts/dev.md .agents/contexts/
+cp contexts/research.md .agents/contexts/
+cp contexts/review.md .agents/contexts/
 ```
 
 **Available Contexts:**
@@ -146,10 +141,10 @@ Copy MCP configuration and update with your API keys:
 
 ```bash
 # Copy MCP config
-cp mcp-configs/mcp-servers.json ~/.antigravity/mcp-servers.json
+cp mcp-configs/mcp-servers.json .agents/mcp-servers.json
 
 # Edit the file and replace placeholders
-nano ~/.antigravity/mcp-servers.json
+nano .agents/mcp-servers.json
 ```
 
 **Replace these placeholders:**

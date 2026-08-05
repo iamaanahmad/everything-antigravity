@@ -1,5 +1,21 @@
 # Changelog - Everything Antigravity
 
+## [2026-08-05] Update - Antigravity 2.0 Feature Integration
+
+### Added
+
+#### Documentation (README.md)
+- ✅ Updated introduction to reflect **Antigravity 2.0 (Standalone Desktop Application)** support.
+- ✅ Added information about **Dynamic Subagents**, which allow for parallel execution of specialized subtasks.
+- ✅ Added documentation for native Antigravity 2.0 features, including **Asynchronous Automation** and **Enterprise Integrations** (Gemini Enterprise sign-in, WIF).
+- ✅ Documented native Antigravity 2.0 slash commands: `/goal`, `/schedule`, `/grill-me`, `/browser`, and `/learn`.
+
+### Changed
+
+- Overhauled `README.md` to highlight the shift from IDE plugin to standalone desktop application.
+
+---
+
 ## [2026-05-01] Update - Full Feature Parity with everything-claude-code
 
 ### Added
