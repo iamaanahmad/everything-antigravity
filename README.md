@@ -1,8 +1,18 @@
 # Everything Antigravity
 
-**The definitive collection of configurations for Google's Antigravity 2.0 (Standalone Desktop Application).**
+**The definitive collection of configurations for the Google Antigravity ecosystem.**
 
 Unlock the full potential of your Antigravity assistant with production-ready agents, skills, hooks, commands, rules, and MCP configurations. Fully optimized for Antigravity 2.0's Dynamic Subagents, Asynchronous Automation, and Enterprise Integrations. Battle-tested patterns evolved from real-world development.
+
+---
+
+## Supported Ecosystem
+
+These configurations are 100% compatible across the entire **Antigravity** suite:
+- **Antigravity 2.0:** The core agentic platform powering parallel subagents and automation.
+- **Antigravity IDE:** The standalone desktop app for visual development and code management.
+- **Antigravity CLI:** The fast, terminal-first interface for local orchestration.
+- **Antigravity SDK:** The developer kit for building custom programmatic agents.
 
 ---
 
