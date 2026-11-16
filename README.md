@@ -472,7 +472,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
 
 ## Resources
 
-- **Antigravity Documentation:** [Link to Antigravity docs]
+- **Antigravity Documentation:** https://antigravity.google/docs/
 - **MCP Protocol:** https://modelcontextprotocol.io
 ---
 
