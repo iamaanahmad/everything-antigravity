@@ -49,6 +49,12 @@ Launch 3 agents simultaneously:
 First agent 1, then agent 2, then agent 3
 ```
 
+For Antigravity App v2.32.0 and later, `/swarm` is the native workflow for
+coordinating independent subagents through a shared message board. Keep
+subtasks bounded, avoid overlapping file ownership, and run verification after
+the results are integrated. Use sequential handoffs when one agent depends on
+another agent's completed output.
+
 ## Multi-Perspective Analysis
 
 For complex problems, use split role sub-agents:

@@ -8,7 +8,7 @@ Unlock the full potential of your Antigravity assistant with production-ready ag
 
 ## Supported Ecosystem
 
-These configurations are 100% compatible across the entire **Antigravity** suite:
+These configurations are compatible across the entire **Antigravity** suite:
 - **Antigravity 2.0:** The core agentic platform powering parallel subagents and automation.
 - **Antigravity IDE:** The standalone desktop app for visual development and code management.
 - **Antigravity CLI:** The fast, terminal-first interface for local orchestration.
@@ -46,6 +46,7 @@ everything-antigravity/
 │   ├── eval.md              # Eval-driven development
 │   ├── learn.md             # Extract reusable patterns
 │   ├── orchestrate.md       # Multi-agent workflow orchestration
+│   ├── swarm.md             # Parallel subagent coordination
 │   ├── refactor-clean.md    # Safe dead code removal
 │   ├── test-coverage.md     # Coverage analysis and test generation
 │   ├── update-codemaps.md   # Architecture documentation
@@ -164,12 +165,18 @@ Define reusable workflows and domain knowledge. The `coding-standards` skill pro
 
 Execute complex tasks with simple slash commands.
 
-**Native Antigravity 2.0 Commands (Built-in):**
+**Native Antigravity Commands (Built-in):**
 - `/goal` - Run a long-running task autonomously without stopping until the goal is achieved.
 - `/schedule` - Set recurring crons or one-time timers for asynchronous automation.
 - `/grill-me` - Align on a plan through an interactive interview.
 - `/browser` - Launch a browser subagent to interact with web pages.
 - `/learn` - Automatically extract patterns and persist behaviors.
+- `/swarm` - Coordinate parallel subagents through a shared message board.
+
+Antigravity App v2.32.0 also provides **Dynamic Workflows**, which can
+orchestrate parallel subagents and multi-step tasks in Python using the bundled
+runtime. Use `/swarm` for coordinated parallel work and the included
+`/orchestrate` command for sequential handoffs.
 
 **Custom Workflow Commands (Included in this repo):**
 - `/tdd` - Test-driven development
@@ -181,6 +188,7 @@ Execute complex tasks with simple slash commands.
 - `/eval` - Eval-driven development
 - `/learn` - Extract reusable patterns as skills
 - `/orchestrate` - Multi-agent workflow orchestration
+- `/swarm` - Parallel subagent coordination
 - `/refactor-clean` - Safe dead code removal
 - `/test-coverage` - Coverage analysis and test generation
 - `/update-codemaps` - Architecture documentation

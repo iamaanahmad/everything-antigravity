@@ -1,5 +1,23 @@
 # Changelog - Everything Antigravity
 
+## [2026-11-16] Update - Antigravity App v2.32.0 Compatibility
+
+### Added
+
+- ✅ Added `commands/swarm.md` for native `/swarm` parallel subagent workflows.
+- ✅ Documented Antigravity App v2.32.0 Dynamic Workflows and bundled Python
+  runtime support.
+
+### Changed
+
+- ✅ Updated README, installation, and consolidated agent guidance with current
+  native command coverage and guidance for choosing `/swarm` versus
+  `/orchestrate`.
+
+This update tracks the official
+[Antigravity changelog](https://antigravity.google/docs/changelog), which lists
+v2.32.0 as the latest release on November 13, 2026.
+
 ## [2026-08-05] Update - Antigravity 2.0 Feature Integration
 
 ### Added

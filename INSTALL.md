@@ -93,11 +93,17 @@ cp commands/code-review.md .agents/commands/
 - `/eval` - Eval-driven development
 - `/learn` - Extract reusable patterns
 - `/orchestrate` - Multi-agent workflow
+- `/swarm` - Parallel subagent coordination
 - `/refactor-clean` - Safe dead code removal
 - `/test-coverage` - Coverage analysis
 - `/update-codemaps` - Architecture docs
 - `/update-docs` - Documentation sync
 - `/verify` - Comprehensive verification
+
+`/swarm` is also available as a native Antigravity command in current releases.
+The included command file documents recommended task decomposition and
+integration practices for projects using Antigravity App v2.32.0 Dynamic
+Workflows.
 
 ### 4. Install Skills
 
