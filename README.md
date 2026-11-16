@@ -470,30 +470,10 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
 
 ---
 
-## Comparison with Claude Code
-
-This repository is inspired by [everything-claude-code](https://github.com/affaan-m/everything-claude-code) but adapted specifically for Google's Antigravity IDE.
-
-**Key Differences:**
-- Antigravity-specific agent configurations
-- Gemini model references (gemini-2.0-pro-exp)
-- Antigravity workflow patterns
-- Context management for Antigravity
-
-**Shared Concepts:**
-- Agent-based delegation
-- Skills for domain knowledge
-- Rules for always-follow guidelines
-- MCP server integrations
-
----
-
 ## Resources
 
 - **Antigravity Documentation:** [Link to Antigravity docs]
 - **MCP Protocol:** https://modelcontextprotocol.io
-- **Inspired by:** [everything-claude-code](https://github.com/affaan-m/everything-claude-code)
-
 ---
 
 ## License

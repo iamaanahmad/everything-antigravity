@@ -34,7 +34,7 @@ v2.32.0 as the latest release on November 13, 2026.
 
 ---
 
-## [2026-05-01] Update - Full Feature Parity with everything-claude-code
+## [2026-05-01] Update
 
 ### Added
 
@@ -69,7 +69,7 @@ v2.32.0 as the latest release on November 13, 2026.
 - 6 rules
 
 **After this update:**
-- 14 commands (full parity with everything-claude-code)
+- 14 commands
 - 6 skills
 - 7 rules
 
@@ -129,7 +129,6 @@ v2.32.0 as the latest release on November 13, 2026.
 - Added installation instructions
 - Added best practices section
 - Added customization guide
-- Added comparison with Claude Code
 - Added troubleshooting and tips
 
 ### Summary
@@ -157,7 +156,7 @@ v2.32.0 as the latest release on November 13, 2026.
 2. **Comprehensive Rules** - Security, coding style, and git workflow guidelines
 3. **Multiple Contexts** - Dev, research, and review modes
 4. **Enhanced Commands** - Planning and code review commands
-5. **Production-Ready** - Battle-tested patterns adapted from everything-claude-code
+5. **Production-Ready** - Battle-tested patterns adapted
 
 ### Improvements
 
@@ -165,14 +164,6 @@ v2.32.0 as the latest release on November 13, 2026.
 2. **Consistent Format** - All agents follow same structure and format
 3. **Comprehensive Documentation** - Detailed README with examples and best practices
 4. **Ready to Use** - Complete setup with all necessary components
-
-### Migration from Claude Code
-
-All agents have been adapted from everything-claude-code with:
-- Model references changed to Gemini (gemini-2.0-pro-exp)
-- Antigravity-specific terminology and patterns
-- Workflow adjustments for Antigravity IDE
-- Context management optimized for Antigravity
 
 ### Next Steps
 
@@ -184,10 +175,6 @@ Recommended additions for future updates:
 - [ ] CI/CD integration examples
 - [ ] Hooks for automation
 - [ ] More MCP server configurations
-
-### Credits
-
-Inspired by and adapted from [everything-claude-code](https://github.com/affaan-m/everything-claude-code) by [@affaanmustafa](https://x.com/affaanmustafa).
 
 ---
 
